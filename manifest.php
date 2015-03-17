@@ -18,6 +18,7 @@
  *               
  * 
  */               
+
 return array(
     'name' => 'taoDataUri',
 	'label' => 'DataURI Tool',

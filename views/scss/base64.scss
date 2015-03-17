@@ -1,0 +1,9 @@
+@import "inc/bootstrap";
+
+.base-64-converter {
+    textarea {
+        display: block;
+        max-width: none;
+        font: 12px $monospaceFont;
+    }
+}
