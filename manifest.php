@@ -18,6 +18,7 @@
  *               
  * 
  */               
+
 return array(
     'name' => 'taoDataUri',
 	'label' => 'DataURI Tool',
@@ -40,7 +41,7 @@ return array(
         )
     ),
     'routes' => array(
-        '/taoThemingPlatform' => 'oat\\taoDataUri\\controller'
+        '/taoDataUri' => 'oat\\taoDataUri\\controller'
     ),    
 	'constants' => array(
 	    # views directory

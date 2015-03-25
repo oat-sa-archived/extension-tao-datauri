@@ -5,7 +5,7 @@
         <description/>
         <icon id="icon-tools" src=""/>
         <sections>
-            <section id="tool_datauri" name="Data URI" url="/taoDataUri/Main/index"/>
+            <section id="tool_datauri" name="Data URI" url="/taoDataUri/Base64Converter/index"/>
         </sections>
     </structure>
 </structures>
