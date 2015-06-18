@@ -24,7 +24,7 @@ return array(
 	'label' => 'DataURI Tool',
 	'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.0.0',
+    'version' => '0.0.2',
 	'author' => 'Open Assessment Technologies SA',
 	'requires' => array(),
 	// for compatibility
@@ -35,11 +35,7 @@ return array(
     ),
     'uninstall' => array(
     ),
-    'autoload' => array (
-        'psr-4' => array(
-            'oat\\taoDataUri\\' => dirname(__FILE__).DIRECTORY_SEPARATOR
-        )
-    ),
+    'update' => 'oat\\taoDataUri\\scripts\\update\\Updater',
     'routes' => array(
         '/taoDataUri' => 'oat\\taoDataUri\\controller'
     ),    
