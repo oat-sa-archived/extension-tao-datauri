@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: TAO 3.0-RC04\n"
-"PO-Revision-Date: 2015-03-06T16:00:18\n"
+"Project-Id-Version: TAO v3.1-dev\n"
+"PO-Revision-Date: 2015-06-18T18:16:11\n"
 "Last-Translator: TAO Translation Team <translation@tao.lu>\n"
 "MIME-Version: 1.0\n"
 "Language: en-US\n"
@@ -13,16 +13,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 
-msgid "%1s has been applied to %2s items', basename($destPath), $count) : __('CSS was not applied to any items"
-msgstr ""
-
-msgid "Apply CSS to Items"
-msgstr ""
-
-#, tao-public
-msgid "Base-64 Converter"
-msgstr ""
-
 msgid "Base64 Converter"
 msgstr ""
 
@@ -33,19 +23,10 @@ msgid "Convert to Base64 Code"
 msgstr ""
 
 #, tao-public
-msgid "CSS Dev Kit"
-msgstr ""
-
-msgid "CSS Development Kit"
-msgstr ""
-
-msgid "Download CSS Development Kit"
+msgid "Data URI"
 msgstr ""
 
 #, tao-public
 msgid "Tools"
-msgstr ""
-
-msgid "Upload and apply the finished CSS file"
 msgstr ""
 
