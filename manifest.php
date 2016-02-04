@@ -24,7 +24,7 @@ return array(
 	'label' => 'DataURI Tool',
 	'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.0.3',
+    'version' => '0.0.4',
 	'author' => 'Open Assessment Technologies SA',
 	'requires' => array(),
 	// for compatibility
