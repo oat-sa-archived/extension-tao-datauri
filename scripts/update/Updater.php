@@ -33,8 +33,8 @@ class Updater extends \common_ext_ExtensionUpdater {
      */
     public function update($initialVersion) {
         if ($currentVersion == '0.0.0' || $currentVersion == '0.0.1' || $currentVersion == '0.0.2' || $currentVersion == '0.0.3')  {
-        	$currentVersion = '0.0.4';
+       		$this->setVersion('0.0.4');
         }
-	return $currentVersion;
+	return null;
     }
 }
