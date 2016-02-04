@@ -32,7 +32,9 @@ class Updater extends \common_ext_ExtensionUpdater {
      * @return string $versionUpdatedTo
      */
     public function update($initialVersion) {
-        $this->skip('0.0.0', '0.0.3');
-        return null;
+        if ($currentVersion == '0.0.0' || $currentVersion == '0.0.1' || $currentVersion == '0.0.2' || $currentVersion == '0.0.4')  {
+        	$currentVersion = '0.0.4';
+        }
+	return $currentVersion;
     }
 }
