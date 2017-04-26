@@ -24,7 +24,7 @@ return array(
 	'label' => 'DataURI Tool',
 	'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.0.6',
+    'version' => '1.0.0',
 	'author' => 'Open Assessment Technologies SA',
 	'requires' => array(),
 	// for compatibility
@@ -45,9 +45,6 @@ return array(
 	    
 		#BASE URL (usually the domain root)
 		'BASE_URL' => ROOT_URL.'taoDataUri/',
-	    
-	    #BASE WWW required by JS
-	    'BASE_WWW' => ROOT_URL.'taoDataUri/views/'
 	),
     'extra' => array(
         'structures' => dirname(__FILE__).DIRECTORY_SEPARATOR.'controller'.DIRECTORY_SEPARATOR.'structures.xml',
