@@ -35,6 +35,7 @@ class Updater extends \common_ext_ExtensionUpdater {
         if ($this->isBetween('0','0.0.5'))  {
        		$this->setVersion('0.0.5');
         }
-	$this->skip('0.0.5','0.0.6');
+
+	    $this->skip('0.0.5','1.0.0');
     }
 }
