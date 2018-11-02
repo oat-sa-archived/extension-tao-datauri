@@ -21,13 +21,13 @@
 namespace oat\taoDataUri\scripts\update;
 
 /**
- * 
+ *
  * @author Joel Bout <joel@taotesting.com>
  */
 class Updater extends \common_ext_ExtensionUpdater {
 
 	/**
-     * 
+     *
      * @param string $currentVersion
      * @return string $versionUpdatedTo
      */
@@ -36,6 +36,6 @@ class Updater extends \common_ext_ExtensionUpdater {
        		$this->setVersion('0.0.5');
         }
 
-	    $this->skip('0.0.5','1.0.1');
+	    $this->skip('0.0.5','2.0.0');
     }
 }
